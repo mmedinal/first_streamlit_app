@@ -8,3 +8,5 @@ pyarrow<8.1.0>=8.0.0
 streamlit >= 1.9.2
 
 my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
+
+streamlit.text("Hello from Snowflake:")
